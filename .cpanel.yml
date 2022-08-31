@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/dormache/callout.dormache.co.za/
+    - /bin/cp . $DEPLOYPATH
