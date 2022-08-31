@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/dormache/callout.dormache.co.za/
-    - /cgi-bin/cp ./ $DEPLOYPATH
+    - export DEPLOYPATH=/home/dormache/repositories/callout-website/
+    - /bin/cp . $DEPLOYPATH
